@@ -11,7 +11,7 @@ local action = function(msg)
 	-- other plugins.
 	if msg.forward_from then return end
 
-	local message = config.about_text .. '\nBased on @otouto v'..version..' by topkecleon.'
+	local message = config.about_text .. '\nBased on otouto v'..version..' by Shahabsaf.'
 
 	if msg.new_chat_participant and msg.new_chat_participant.id == bot.id then
 		sendMessage(msg.chat.id, message, true)
