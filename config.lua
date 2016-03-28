@@ -17,7 +17,7 @@ return {
 	admin = 00000000,
 	log_chat = nil,
 	about_text = [[
-I am otouto, the plugin-wielding, multi-purpose Telegram bot.
+I am Sila, the plugin-wielding, multi-purpose Telegram bot.
 
 Send /help to get started.
 ]]	,
